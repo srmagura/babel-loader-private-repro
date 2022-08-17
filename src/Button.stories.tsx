@@ -1,4 +1,4 @@
-import PortalMaterial from "./PortalMaterial";
+import { PortalMaterial } from "./PortalMaterial";
 
 console.log(PortalMaterial);
 
