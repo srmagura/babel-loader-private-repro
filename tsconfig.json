@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["dom", "dom.iterable", "es2019"],
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "noImplicitAny": false,
+    "baseUrl": "."
+  },
+  "include": ["src/**/*", "src/types.d.ts"]
+}
