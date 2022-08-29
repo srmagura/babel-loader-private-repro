@@ -1,6 +1,5 @@
 # storybook-babel-private-repro
 
 1. `yarn`
-2. `yarn storybook` - build fails
-3. `yarn build` - Babel by itself can compile the file without issue
-4. `yarn tsc` - TypeScript can compile the file without issue
+2. `yarn build-babel` - Babel by itself can compile the file without issue
+3. `yarn build-webpack` - Webpack + babel-loader cannot compile the file
