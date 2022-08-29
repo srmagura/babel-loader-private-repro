@@ -1,6 +1,4 @@
-export default {
-  title: "Button",
-};
+import ReactDOM from "react-dom";
 
 class PortalMaterial {
   #color1!: any; // It works if the exclamation point is removed
@@ -10,4 +8,4 @@ class PortalMaterial {
   }
 }
 
-export const Button: React.FC = () => <button>Test</button>;
+ReactDOM.render(<button>Test</button>, document.getElementById("root")!);
